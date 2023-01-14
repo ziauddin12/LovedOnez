@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <!--{{ paymentPlan }} Payments-->
+    </ion-title>
+    <ion-button color="danger" slot="end" (click)="dismissModal()">X</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="card">
+
+  </div>
+
+  <ion-item-divider></ion-item-divider>
+
+  <ion-label><p>Amount Due</p></ion-label>
+
+  <ion-label class="amount"><h2>150.00</h2></ion-label>
+
+
+  <ion-item-divider></ion-item-divider>
+
+  <ion-button expand="block" (click)="onConfirm()">Pay Now</ion-button>
+
+</ion-content>
